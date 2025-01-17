@@ -1,0 +1,68 @@
+html, body {
+    height: auto; /* 使頁面高度自動，允許滾動 */
+    overflow-y: auto; /* 允許垂直滾動 */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white; /* 整體背景色改為白色 */
+    color: black; /* 文字顏色改為黑色 */
+}
+
+header {
+    background-color: #003366; /* 深藍色的標題背景 */
+    color: black; /* 標題文字顏色改為黑色 */
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block; /* 改為 inline-block 以便下拉選單對齊 */
+    margin-right: 20px;
+    position: relative; /* 使下拉選單相對於父元素定位 */
+}
+
+nav ul li a {
+    color: white; /* 將導航字體顏色改為白色 */
+    text-decoration: none; /* 移除導航字體的底線 */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* 當鼠標移過導航項目時顯示底線 */
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    left: 0; /* 將下拉選單對齊到父元素的左側 */
+    top: 100%; /* 將下拉選單放置在父元素的下方 */
+    background-color: white; /* 下拉選單背景顏色改為白色 */
+    min-width: 140px;
+    z-index: 1;
+    margin-left: -30px; /* 調整左邊距以對齊議題導讀 */
+}
+
+nav ul li ul li a {
+    color: black; /* 將下拉式選單中的字體顏色改為黑色 */
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #003366; /* 深藍色的頁尾背景 */
+    color: black; /* 頁尾文字顏色改為黑色 */
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
