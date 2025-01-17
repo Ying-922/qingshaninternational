@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>青山國際教育</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">主頁 (Home)</a></li>
+        <li><a href="#topics">議題導讀</a></li>
+        <li><a href="#diary">青山模聯上課日誌</a></li>
+        <li><a href="#contact">聯絡我們</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- 主頁區塊 -->
+    <section id="home">
+      <h1>歡迎來到青山國際教育</h1>
+      <p>探索模擬聯合國的世界，學習更多議題知識與技能！</p>
+    </section>
+
+    <!-- 議題導讀區塊 -->
+    <section id="topics">
+      <h2>議題導讀</h2>
+      <p>這裡將為您介紹模聯中熱門的國際議題，幫助您更好地理解世界。</p>
+      <ul>
+        <li>以哈衝突</li>
+        <li>俄烏戰爭</li>
+        <li>南北韓衝突</li>
+        <li>...</li>
+      </ul>
+    </section>
+
+    <!-- 青山模聯上課日誌 -->
+    <section id="diary">
+      <h2>青山模聯上課日誌</h2>
+      <p>記錄每次課堂的亮點與學習成果，見證你的成長！</p>
+      <ul>
+        <li>2025/01/15 - 開學日與模聯基礎介紹</li>
+        <li>2025/01/22 - 議題研究與角色扮演技巧</li>
+        <li>2025/01/29 - 辯論訓練與演講工作坊</li>
+      </ul>
+    </section>
+
+    <!-- 聯絡我們區塊 -->
+    <section id="contact">
+      <h2>聯絡我們</h2>
+      <p>如果有任何問題或需要幫助，請隨時聯絡我們：</p>
+      <ul>
+        <li>Email: <a href="mailto:qingshanmun@example.com">qingshanmun@example.com</a></li>
+        <li>電話: 0987-654-321</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 青山模聯 All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
